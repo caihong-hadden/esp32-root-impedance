@@ -1,0 +1,28 @@
+# deps / build
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+
+# secrets
+.env
+.env.*
+*.private.config.json
+*.pem
+*.key
+
+# media / archives
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.zip
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
